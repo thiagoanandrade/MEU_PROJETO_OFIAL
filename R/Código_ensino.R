@@ -348,6 +348,7 @@ Se_tiver_eu_vou
 # algo que comece com um número
 # um caracter especial
 # ou espaço entre palavras
+# Nomes reservados da linguagem não podem ser uma variável
 
 
 x <- 2
