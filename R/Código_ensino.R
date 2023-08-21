@@ -201,7 +201,7 @@ View(mtcars)
 
 17 - 6
 
-(((5 - 3) + (8 - 4))+5)-3
+((    (5 - 3)  + (8 - 4)   )+5)-3
 
 # MULTIPLICAÇÃO e DIVISÃO
 
@@ -212,7 +212,7 @@ View(mtcars)
 
 #(3*(7-2) # os separadores são os parênteses. Se abrir um parêntese, feche!
 
-(((2-1)*4)/4)^10
+(((2-1)*4)/4)
 
 
 
@@ -255,11 +255,33 @@ View(mtcars)
 
 11 /3
 
+#> Existem muitas funções que
+#> já "moram" no R. Em geral,
+#> Elas advêm de dois super
+#> pacotes nativos: base e stats.
+#> Para acessar o conteúdo dos pacotes, use o operador
+#> ::. Que que forma? Simples: nomeDoPacote::
+#> Se tiver  dúvidas sobre alguma função digite
+#> help(nome_da_função)
+#> Para alguma função que não existe nos pacotes básicos
+#> instale outro pacote que contenha a função desejada. Como?
+#> install.packages("NOME_DO_PACOTE") uma única vez.
+#> Mas, sempre que precisar usar, carregue-o com
+#> library(NOME_DO_PACOTE_SEM_ASPAS)
+#> Exemplo: pacote wooldridge
+install.packages("wooldridge")
+library(wooldridge)
 
 # Arredondadamento
 
 round(11 /3,3)
+round(11 /3,2)
+round(11 /3,1)
+round(11 /3,0)
 
+# RQ
+
+sqrt(4)
 
 #------------------------------------------------------------------------------------------#
 #Exercícios
