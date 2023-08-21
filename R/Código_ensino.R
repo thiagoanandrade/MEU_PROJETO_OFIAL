@@ -1,3 +1,5 @@
+# Olá pessoas da turma CD
+
 # rm(list=ls()) é diferente de Ctrl + L
 rm(list=ls())
 
